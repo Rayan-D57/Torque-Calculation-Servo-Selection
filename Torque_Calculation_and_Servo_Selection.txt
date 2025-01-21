@@ -1,0 +1,48 @@
+
+Torque Calculation & Servo Selection
+
+1. Basic Equation:
+   τ = F × r
+   Where:
+   - Force (F) = m × g
+     - m = 1 kg
+     - g = 9.81 m/s^2
+     - F = 1 × 9.81 = 9.81 N
+   - Arm lengths:
+     - r1 = 4 cm = 0.04 m
+     - r2 = 10 cm = 0.10 m
+     - r3 = 15 cm = 0.15 m
+
+2. Torque Calculation for Each Joint:
+   - Joint 3:
+     τ3 = F × r3 = 9.81 × 0.15 = 1.4715 N.m
+   - Joint 2:
+     τ2 = F × r2 = 9.81 × 0.10 = 0.981 N.m
+   - Joint 1:
+     τ1 = F × r1 = 9.81 × 0.04 = 0.3924 N.m
+
+3. Safety Factor:
+   Safety Factor = 1.5
+   - Joint 3:
+     τ3 = 1.4715 × 1.5 = 2.20725 N.m
+   - Joint 2:
+     τ2 = 0.981 × 1.5 = 1.4715 N.m
+   - Joint 1:
+     τ1 = 0.3924 × 1.5 = 0.5886 N.m
+
+Servo Motor Selection:
+
+1. Joint 1:
+   - Required Torque: 0.6 N.m
+   - Recommended Servo: MG996R
+   - Purchase Link: https://www.amazon.sa/-/en/AEDIKO-MG996R-Control-Digital-Helicopter/dp/B09BZ5955Z
+
+2. Joint 2:
+   - Required Torque: 1.5 N.m
+   - Recommended Servo: DS3218
+   - Purchase Link: https://www.amazon.sa/%D8%A7%D9%86%D9%8A%D9%85%D9%88%D8%B3-DS3218-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%88%D8%AA/dp/B07WYQ9P3F
+
+3. Joint 3:
+   - Required Torque: 2.3 N.m
+   - Recommended Servo: DS3218
+   - Purchase Link: https://www.amazon.sa/%D8%A7%D9%86%D9%8A%D9%85%D9%88%D8%B3-DS3218-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%88%D8%AA/dp/B07WYQ9P3F
