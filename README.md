@@ -1,1 +1,0 @@
-# Torque-Calculation-Servo-Selection
